@@ -14,30 +14,30 @@ export default function RenderFileIcon({ fileName, isFolder, isOpen }: IProps) {
         switch (extension) {
             case "node_modules":
                 return isOpen ?
-                    <img src="../../../public/icons/folder-node-open.svg" alt="" className="w-5 h-5" />
+                    <img src="/icons/folder-node-open.svg" alt="" className="w-5 h-5" />
                     :
-                    <img src="../../../public/icons/folder-node.svg" alt="" className="w-5 h-5" />
+                    <img src="/icons/folder-node.svg" alt="" className="w-5 h-5" />
                     ;
                 break;
             case "public":
                 return isOpen ?
-                    <img src="../../../public/icons/folder-public-open.svg" alt="" className="w-5 h-5" />
+                    <img src="/icons/folder-public-open.svg" alt="" className="w-5 h-5" />
                     :
-                    <img src="../../../public/icons/folder-public.svg" alt="" className="w-5 h-5" />
+                    <img src="/icons/folder-public.svg" alt="" className="w-5 h-5" />
                     ;
                 break;
             case "src":
                 return isOpen ?
-                    <img src="../../../public/icons/folder-src-open.svg" alt="" className="w-5 h-5" />
+                    <img src="/icons/folder-src-open.svg" alt="" className="w-5 h-5" />
                     :
-                    <img src="../../../public/icons/folder-src.svg" alt="" className="w-5 h-5" />
+                    <img src="/icons/folder-src.svg" alt="" className="w-5 h-5" />
                     ;
                 break;
             case "components":
                 return isOpen ?
-                    <img src="../../../public/icons/folder-components-open.svg" alt="" className="w-5 h-5" />
+                    <img src="/icons/folder-components-open.svg" alt="" className="w-5 h-5" />
                     :
-                    <img src="../../../public/icons/folder-components.svg" alt="" className="w-5 h-5" />
+                    <img src="/icons/folder-components.svg" alt="" className="w-5 h-5" />
                     ;
                 break;
             default:
